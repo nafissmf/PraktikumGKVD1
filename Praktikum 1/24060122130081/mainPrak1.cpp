@@ -5,49 +5,6 @@
 #include <GL/glut.h>
 #include <math.h>
 
-//Soal 1
-//void Garis(void) {
-//    glClear(GL_COLOR_BUFFER_BIT);
-//	glBegin(GL_POLYGON);
-//	glColor3f(1.0f,1.0f,1.0f);
-//	glVertex2f(-0.3, 0.8);
-//    glColor3f(1.0f,1.0f,1.0f);
-//	glVertex2f(0.3, 0.8);
-//	glColor3f(1.0f,1.0f,1.0f);
-//	glVertex2f(0.3, -0.1);
-//	glColor3f(1.0f,1.0f,1.0f);
-//	glVertex2f(0.0, -0.5);
-//	glColor3f(1.0f,1.0f,1.0f);
-//	glVertex2f(-0.3, -0.1);
-//	glEnd();
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glRectf(-0.27, 0.75, -0.01, 0.3);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glRectf(0.01, 0.3, 0.27, 0.75);
-//	glBegin(GL_POLYGON);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(-0.27, 0.27, 0.0);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(-0.01, 0.27, 0.0);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(-0.01, -0.43, 0.0);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(-0.27, -0.085, 0.0);
-//	glEnd();
-//	glBegin(GL_POLYGON);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(0.27, 0.27, 0.0);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(0.01, 0.27, 0.0);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(0.01, -0.43, 0.0);
-//	glColor3f(0.5f,0.5f,0.5f);
-//	glVertex3f(0.27, -0.085, 0.0);
-//	glEnd();
-//	
-//	glFlush();
-//}
-
 void Nyan(void){
 	glClear(GL_COLOR_BUFFER_BIT);
 	
