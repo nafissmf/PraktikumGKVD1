@@ -134,7 +134,7 @@ int main(int argc,char *argv[])
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
     glutCreateWindow("Tugas 1.1");
     glutDisplayFunc(starboy);
-    glClearColor(1.0f,1.0f,1.0f,1.0f);
+    glClearColor(0.8f,0.8f,0.8f,0.8f);
     glutMainLoop();
     return 0;
 } 
