@@ -38,7 +38,7 @@ int main(int argc,char *argv[])
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
     glutCreateWindow("Kubus Eight Figure");
     glutDisplayFunc(eightfigure);
-    glClearColor(1.0f,1.0f,1.0f,1.0f);
+    glClearColor(0.5f,1.5f,2.5f,1.5f);
     glutMainLoop();
     return 0;
 } 
