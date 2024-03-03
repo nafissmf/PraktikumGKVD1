@@ -72,8 +72,6 @@ int main(int argc, char* argv[])
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutCreateWindow("F1 Ferrari by Bintang");
     glEnable(GL_DEPTH_TEST);
-    glShadeModel(GL_SMOOTH);
-    glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glClearColor(0.529, 0.808, 0.922, 1.0);
     glOrtho (-100, 100, -100, 100,-100, 100);
